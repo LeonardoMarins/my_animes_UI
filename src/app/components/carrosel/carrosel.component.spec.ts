@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SecaoLancamentoComponent } from './secao-lancamento.component';
+import { CarroselComponent } from './carrosel.component';
 
-describe('SecaoLancamentoComponent', () => {
-  let component: SecaoLancamentoComponent;
-  let fixture: ComponentFixture<SecaoLancamentoComponent>;
+describe('CarroselComponent', () => {
+  let component: CarroselComponent;
+  let fixture: ComponentFixture<CarroselComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [SecaoLancamentoComponent]
+      declarations: [CarroselComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(SecaoLancamentoComponent);
+    fixture = TestBed.createComponent(CarroselComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

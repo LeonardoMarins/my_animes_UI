@@ -4,13 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { SecaoLancamentoComponent } from './components/secao-lancamento/secao-lancamento.component';
+import {CarroselComponent} from "./components/carrosel/carrosel.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SecaoLancamentoComponent
+    CarroselComponent
   ],
   imports: [
     BrowserModule,
