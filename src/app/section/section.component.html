@@ -1,0 +1,12 @@
+<div class="container">
+    <img class="img-destaque" *ngIf="anime.imageUrl" [src]="anime.imageUrl" alt="Anime Image">
+    <div class="sub-list">
+        <h2>{{anime.title}}</h2>
+        <ul class="list">
+            <li>{{anime.duration}}</li>
+            <li>{{anime.year}}</li>
+            <li>{{anime.score}}</li>
+        </ul>
+        <button class="play">Iniciar</button>
+    </div>
+</div>

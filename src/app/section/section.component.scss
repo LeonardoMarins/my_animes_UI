@@ -1,0 +1,52 @@
+
+.container {
+    position: relative;
+    .img-destaque {
+        width: 100%; /* Use 100% para ocupar todo o espaço disponível */
+        max-width: 70%; /* Limita o tamanho máximo */
+        height: auto; /* Mantém a proporção */
+        max-height: 35rem; /* Define a altura máxima */
+        padding: 20px;
+        border-radius: 40px;
+        object-fit: cover; /* Faz com que a imagem cubra o elemento sem distorção */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adiciona sombra para profundidade */
+    }
+
+    .sub-list {
+        position: absolute;
+        bottom: 100px;
+        left: 60px;
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        .list {
+            display: flex;
+
+            li {
+                margin-bottom: 10px; /* Espaço entre os itens */
+                padding: 10px; /* Espaço interno */
+                border: 2px solid black;
+                list-style: none;
+                background-color: white; /* Fundo branco para destacar a borda */
+                border-radius: 5px; /* Bordas arredondadas, se desejado */
+            }
+        }
+
+        .play {
+            padding: 14px 50px;
+            background-color: #D94A4A;
+            color: #1B1B1B;
+            border-radius: 10px;
+            border: none;
+            transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+            cursor: pointer;
+        }
+
+        .play:hover {
+            transition: 0.5s ease-in-out;
+            box-shadow: 0 0 20px 10px #D94A4A;
+        }
+    }
+}
